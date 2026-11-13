@@ -185,6 +185,13 @@ nav a.active {
     flex:1;
     padding: 40px 40px 40px 15%;
 }
+.message-image {
+    width: 100%;
+    max-width: 100%; /* Ensures it doesn't overflow its container */
+    height: auto;    /* Maintains the image's original aspect ratio */
+    display: block;
+    margin-top: 20px; /* Optional spacing between the title and image */
+}
 .latest-events {
     flex: 1;
     padding: 40px 15% 40px 10px;
