@@ -367,3 +367,69 @@ footer{
     align-items: center;
     padding-bottom: 2%;
 }
+@media screen and (max-width: 992px) {
+    header {
+        padding: 10px 5%;
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .news-text {
+        padding-left: 5%;
+        padding-right: 5%;
+        flex-direction: column;
+    }
+    .message-events-container {
+        flex-direction: column;
+    }
+    .message-CEO, .latest-events {
+        padding: 30px 5%;
+    }
+    .filings-container {
+        padding: 40px 5%;
+    }
+    .footer-info-container {
+        flex-direction: column;
+        padding: 30px 5% 0 5%;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    .Alert-Form-Container{
+        flex-direction: column;
+        padding: 30px 5% 0 5%;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    info-text-consent {
+        padding-left: 0; 
+    }
+    .footer-logo {
+        padding-left: 5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero {
+        height: 400px;
+    }
+    .year {
+        font-size: 4rem; /* Scales down huge year text for mobile */
+    }
+    .lorem {
+        font-size: 1.5rem;
+    }
+    .speech-text {
+        padding: 0 5%;
+        font-size: 1.1rem;
+    }
+    .filings-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
